@@ -17,3 +17,68 @@
 .projects-link {
   display: block;
 }
+
+.contact-link {
+  display: block;
+}
+
+.wikipedia {
+  width: 50%;
+}
+
+.tours {
+  width: 50%;
+}
+
+.wikipedia-react-label {
+  display: block;
+}
+
+.wikipedia-server-label {
+  display: block;
+}
+
+.tours-container {
+  padding-left: 700px;
+}
+
+.wikipedia-container {
+}
+
+.fade-in-header {
+  opacity: 1;
+  animation-name: fadeInOpacityHeader;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.2s;
+}
+
+@keyframes fadeInOpacityHeader {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-image {
+  opacity: 1;
+  animation-name: fadeInOpacityImage;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.4s;
+}
+
+@keyframes fadeInOpacityImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.github-label {
+  display: block;
+}
