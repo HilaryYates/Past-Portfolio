@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.computer-image {
+  clip-path: circle(34.3% at 50% 48%);
+  width: 80%;
+}
+
+.heading-container {
+  display: inline-block;
+}
+
+.computer-image-container {
+}
+
+.projects-link {
+  display: block;
+}
