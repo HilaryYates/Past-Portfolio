@@ -9,8 +9,8 @@ const Projects = () => {
       <img src='/tours.png' className='tours'></img>
       <div className='wikipedia-container'>
         <p>
-          A React app with an Express server and a database built with Postgres.
-          Styled with CSS.
+          A Wikipedia clone. Built with React, Express/node.js, Postgres, and
+          CSS.
         </p>
         <a
           className='wikipedia-react-label'
@@ -26,7 +26,7 @@ const Projects = () => {
         </a>
       </div>
       <div className='tours-container'>
-        <p>A CSS/Sass project with animations</p>
+        <p>A CSS/Sass project with animations.</p>
         <a href='https://github.com/HilaryYates/Tours'>Project Files</a>
       </div>
     </div>

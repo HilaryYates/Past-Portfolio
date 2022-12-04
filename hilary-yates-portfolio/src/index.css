@@ -2,47 +2,55 @@
   box-sizing: border-box;
 }
 
+a:link,
+a:visited {
+  color: #000;
+}
+
 /* front */
 
 .front-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: minmax(100px, auto);
-  border: 5px solid blue;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
+
+  grid-template-columns: 800px 10px;
+}
+
+.headings {
+  display: inline-block;
+  padding-left: 300px;
+  padding-top: 270px;
+  /* border: 1px solid red; */
 }
 
 .name {
-  border: 1px solid black;
 }
 
 .title {
-  border: 1px solid brown;
+}
+
+.computer-image-container {
+  display: inline-block;
+  /* border: 1px solid red; */
 }
 
 .computer-image {
   clip-path: circle(34.3% at 50% 48%);
-  width: 80%;
-  border: 1px solid red;
-  margin-left: 502px;
-  margin-top: -25px;
+  width: 1300px;
+  margin-left: -450px;
+  margin-top: -35px;
+  display: inline-block;
 }
 
 .projects-link {
   display: block;
-  border: 1px solid green;
 }
 
 .about-link {
   display: block;
-  border: 1px solid orangered;
 }
 
 .contact-link {
   display: block;
-  border: 1px solid orange;
 }
 
 /* front */
@@ -75,7 +83,7 @@
   animation-name: fadeInOpacityHeader;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 1.2s;
+  animation-duration: 1s;
 }
 
 @keyframes fadeInOpacityHeader {
@@ -92,7 +100,7 @@
   animation-name: fadeInOpacityImage;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 0.4s;
+  animation-duration: 0.02s;
 }
 
 @keyframes fadeInOpacityImage {
