@@ -9,7 +9,7 @@ function App() {
         <div className='headings'>
           <h1 className='name'>Hilary Yates</h1>
           <p className='title'>Front-End Software Developer</p>
-          <a className='projects-link' href='#'>
+          <a className='projects-link' href='#projects'>
             Some of my projects
           </a>
           <a className='about-link' href='#'>

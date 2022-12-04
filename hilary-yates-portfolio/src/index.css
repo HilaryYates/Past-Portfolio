@@ -63,6 +63,7 @@ a:visited {
 /* front */
 
 .wikipedia {
+  padding-top: 100px;
   width: 50%;
 }
 
@@ -121,4 +122,18 @@ a:visited {
 
 .github-label {
   display: block;
+}
+
+.projects-header {
+  padding-top: 90px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: "Lora", serif;
+}
+
+.my-photo {
+  border-radius: 50%;
+  filter: gray;
+  filter: grayscale(1);
+  width: 10%;
 }

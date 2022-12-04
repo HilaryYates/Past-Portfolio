@@ -3,13 +3,15 @@ import react from "react";
 const Projects = () => {
   return (
     <div>
-      <h1>Projects</h1>
-
+      <h1 className='projects-header' id='projects'>
+        Projects
+      </h1>
+      <div className='project-titles'></div>
       <img src='/wikipedia.png' className='wikipedia' />
       <img src='/tours.png' className='tours'></img>
       <div className='wikipedia-container'>
         <p>
-          A Wikipedia clone. Built with React, Express/node.js, Postgres, and
+          A Wikipedia Clone built with React, Express/Node.js, Postgres, and
           CSS.
         </p>
         <a
@@ -26,7 +28,7 @@ const Projects = () => {
         </a>
       </div>
       <div className='tours-container'>
-        <p>A CSS/Sass project with animations.</p>
+        <p>A nature tours website built with CSS/Sass .</p>
         <a href='https://github.com/HilaryYates/Tours'>Project Files</a>
       </div>
     </div>
