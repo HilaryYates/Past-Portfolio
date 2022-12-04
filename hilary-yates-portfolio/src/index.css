@@ -23,9 +23,11 @@ a:visited {
 }
 
 .name {
+  font-family: "Dancing Script", cursive;
 }
 
 .title {
+  font-family: "Lora", serif;
 }
 
 .computer-image-container {
@@ -43,14 +45,19 @@ a:visited {
 
 .projects-link {
   display: block;
+  padding-bottom: 8px;
+  font-family: "Lora", serif;
 }
 
 .about-link {
   display: block;
+  padding-bottom: 8px;
+  font-family: "Lora", serif;
 }
 
 .contact-link {
   display: block;
+  font-family: "Lora", serif;
 }
 
 /* front */
