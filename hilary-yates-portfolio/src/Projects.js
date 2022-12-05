@@ -20,13 +20,13 @@ const Projects = () => {
               className='wikipedia-react-label font'
               href='https://github.com/HilaryYates/Wikipedia'
             >
-              Project Files: React
+              Project Files
             </a>
             <a
               className='wikipedia-server-label font'
               href='https://github.com/HilaryYates/Server-For-Wikipedia'
             >
-              Project Files: Server
+              Project Files
             </a>
           </div>
         </div>
