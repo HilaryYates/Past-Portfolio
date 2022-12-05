@@ -20,7 +20,7 @@ const Contact = () => {
         >
           GitHub
         </a>
-        <img className='my-photo' src='/hilary yates photo.jpg' />
+        <img className='my-photo' src='hilary yates photo.jpg' />
       </div>
     </div>
   );

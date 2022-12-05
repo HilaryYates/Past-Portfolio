@@ -7,8 +7,8 @@ const Projects = () => {
         Some of my projects
       </h1>
       <div className='project-titles'></div>
-      <img src='/wikipedia.png' className='wikipedia' />
-      <img src='/tours.png' className='tours'></img>
+      <img src='wikipedia.png' className='wikipedia' />
+      <img src='tours.png' className='tours'></img>
       <div className='projects-container'>
         <div className='wikipedia-container'>
           <div className='wikipedia-description'>
