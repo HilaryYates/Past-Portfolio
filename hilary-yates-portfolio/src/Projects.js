@@ -3,7 +3,6 @@ import react from "react";
 const Projects = () => {
   return (
     <div>
-      <h1>test</h1>
       <h1 className='projects-header' id='projects'>
         Some of my projects
       </h1>
