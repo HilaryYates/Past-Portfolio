@@ -73,6 +73,7 @@ a:visited {
 
 .wikipedia-react-label {
   display: block;
+  padding-bottom: 10px;
 }
 
 .wikipedia-server-label {
@@ -83,7 +84,17 @@ a:visited {
   padding-left: 700px;
 }
 
-.wikipedia-container {
+.contact-container {
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: 10px 10px; */
+}
+
+.contact-me-header {
+  text-align: center;
+  font-family: "Lora", serif;
+  padding-bottom: 10px;
+  padding-top: 90px;
 }
 
 .fade-in-header {
@@ -125,9 +136,9 @@ a:visited {
 }
 
 .projects-header {
-  padding-top: 90px;
+  padding-top: 75px;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   font-family: "Lora", serif;
 }
 
@@ -136,4 +147,34 @@ a:visited {
   filter: gray;
   filter: grayscale(1);
   width: 10%;
+}
+
+.email-label {
+  padding-right: 10px;
+}
+
+.linkedin-label {
+  padding-right: 10px;
+}
+
+.github-label {
+  padding-right: 10px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 300px 500px;
+}
+
+.wikipedia-description {
+  padding-top: 10px;
+  padding-left: 230px;
+}
+
+.tours-description {
+  padding-left: 200000000px;
+}
+
+.font {
+  font-family: "Lora", serif;
 }

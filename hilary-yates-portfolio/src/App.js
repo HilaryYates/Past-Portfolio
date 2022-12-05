@@ -1,6 +1,5 @@
 import Projects from "./Projects";
 import Contact from "./Contact";
-import AboutMe from "./AboutMe";
 
 function App() {
   return (
@@ -12,10 +11,10 @@ function App() {
           <a className='projects-link' href='#projects'>
             Some of my projects
           </a>
-          <a className='about-link' href='#'>
+          {/* <a className='about-link' href='#'>
             About me
-          </a>
-          <a className='contact-link' href='#'>
+          </a> */}
+          <a className='contact-link' href='#contact'>
             Contact me
           </a>
         </div>
@@ -29,7 +28,6 @@ function App() {
       </div>
 
       <Projects />
-      <AboutMe />
       <Contact />
     </div>
   );
