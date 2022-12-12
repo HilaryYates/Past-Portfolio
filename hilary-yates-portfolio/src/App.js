@@ -11,11 +11,14 @@ function App() {
           <a className='projects-link' href='#projects'>
             Some of my projects
           </a>
-          {/* <a className='about-link' href='#'>
-            About me
-          </a> */}
           <a className='contact-link' href='#contact'>
             Contact me
+          </a>
+          <a
+            className='github-label'
+            href='https://github.com/hilaryYates?tab=repositories'
+          >
+            GitHub
           </a>
         </div>
         <div className='computer-image-container'>

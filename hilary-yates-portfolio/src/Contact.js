@@ -14,13 +14,16 @@ const Contact = () => {
         >
           Linkedin
         </a>
-        <a
+        {/* <a
           className='github-label'
           href='https://github.com/hilaryYates?tab=repositories'
         >
           GitHub
-        </a>
-        <img className='my-photo' src='hilary yates photo.jpg' />
+        </a> */}
+        <img
+          className='my-photo'
+          src='https://i.postimg.cc/rsXYqc7H/hilary-yates-photo.jpg'
+        />
       </div>
     </div>
   );
